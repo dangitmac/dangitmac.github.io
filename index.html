@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .instructions {
+        margin-left: 20px;
+      }
+      footer {
+        padding: 55px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container"></div>
+      <ul class="instructions">
+        <li>Each guess can be any 5 letter combination.</li>
+        <li>The color of the tiles will change to show how close your guess was to the word.</li>
+      </ul>
+      <div class="rules"></div>
+      <div class="win-screen hide"></div>
+    </div>
+    <button class="submit hide">Submit</button>
+    <!-- Script -->
+    <script src="script.js"></script>
+
+    <footer>
+      <p style="color: #FFD700;">mac dang</p>
+      <p style="color: green;">tacoma, wa</p>
+      <p>2023</p>
+    </footer>
+  </body>
+</html>
